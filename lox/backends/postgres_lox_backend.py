@@ -7,7 +7,7 @@ import psycopg2
 import pytz
 
 from lox.core.errors import *
-from base_lox_backend import BaseLoxBackend, BackendLock
+from .base_lox_backend import BaseLoxBackend, BackendLock
 
 class PostgresLoxBackend(BaseLoxBackend):
     """
